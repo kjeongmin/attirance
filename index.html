@@ -14,6 +14,12 @@
     <script src="js/jquery.vide.js"></script>
 </head>
 
+
+
+
+
+
+
 <body>
     <!--헤더-->
     <div id="header">
@@ -22,7 +28,7 @@
             <div id="L_m">
                 <ul class="l_M">
                     <li class="li1"><a href="#">로그인</a></li>
-                    <li><a href="#">회원가입</a></li>
+                    <li><a href="sub/sub_Join.html">회원가입</a></li>
                     <li><a href="#">마이페이지</a></li>
                     <li><a href="#">멤버십</a></li>
                     <li><a href="#">장바구니</a></li>
@@ -38,7 +44,7 @@
             <!--검색_기능-->
             <!--로고-->
             <div class="logo">
-                <img src="images/logo.png" alt="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a> 
             </div>
             <!--로고-->
         </div>
@@ -62,7 +68,19 @@
         <!--메뉴-->
     </div>
     <!--배너영상-->
-    <div id="banner_video">
+        <div id="banner">
+
+			<video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline" playsinline="playsinline">
+				<!--
+					미리 로드하기 설정 : preload
+					재생여부 : autoplay (자동재생)
+					사운드 설정 : muted (음소거)
+					반복재생여부 : loop (무한반복)
+				-->
+					<source src="images/banner_video.mp4" type="video/mp4">
+			</video>
+       </div>
+
 
     </div>
     <!--배너영상-->
@@ -73,12 +91,12 @@
             <div class="strong"></div>
             <div class="full">
                 <p class="fo">Diffuser and Candle</p>
-                <div class="div1">은은히 퍼지는 향으로 인하여 누군가를 자연스럽게 이끌릴 수 있도록 하는 매력<br>
-                    그런향의 매력을 가지고 있는 디퓨저<br>
-                    사랑하는 사람이 나를 오랫동안 기억할 수 있는 향</div>
+                <div class="div1">은은히 퍼지는 향으로 인하여 <span class="dip"> 누군가를 자연스럽게</span> 이끌릴 수 있도록 하는 매력<br>
+                    <span class="dip"> 그런향의 매력</span>을 가지고 있는 디퓨저<br>
+                       사랑하는 사람이 <span class="dip"> 나를 오랫동안 기억</span>할 수 있는 향</div>
 
-                <div class="div_1">함께 있는 시간이 좋은 추억으로 기억되며 그 순간이 하나의 향으로 <br>
-attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가가도록 하겠습니다</div>
+                <div class="div_1">함께 있는 시간이 <span class="dip"> 좋은 추억으로 기억되며</span> 그 순간이 하나의 향으로 <br>
+                <span class="span1"> attirance : 이끌림</span>은 <span class="dip"> 사랑하는 사람에게 향기와 추억</span>으로 다가가도록 하겠습니다</div>
                 <p id="p1">View More</p>
             </div>
         </div>
@@ -88,7 +106,7 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
     <div class="bg2">
         <div class="bg2_1">
             <h2 class="h2_1">디퓨저</h2>
-            <p class="p_h2">디퓨저의 종류는 4가지로 <span class="dip">스틱형, 플라워/오너먼트형, 차량용, 탄생화</span>로 나눠져 있습니다.</p>
+            <p class="p_h2">디퓨저의 종류는 4가지로 <span class="dip1">스틱형, 플라워/오너먼트형, 차량용, 탄생화</span>로 나눠져 있습니다.</p>
             <!--디퓨저 박스-->
             <div class="box">
                 <!--스틱형-->
@@ -96,7 +114,7 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
                     <img src="images/main_Diffuser1.jpg" alt="Diffuser1">
                     <ul class="ul_box_1">
                         <li class="li_box_1"><a href="#">스틱형</a></li>
-                        <li class="li_box_11"><a href="#">긴막대로 가장 일반적입니다.<br> 
+                        <li class="li_box_11"><a href="#">긴막대로 가장 일반적입니다.<br>
                                 갯수로 향의 강도를 조절하는 <br> 것이며 또한, 일주일 간격으로 <br> 막대를 뒤집어 두면 향의 발향력이 더욱 높아집니다.
                                 일반적으로 <br> 집안에 두눈 경우가 많기도 하며 <br>어디에 두어도 이상하지 않고 <br> 심플하여서 보기좋아 무난합니다.</a></li>
                     </ul>
@@ -108,8 +126,8 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
                     <ul class="ul_box_1">
                         <li class="li_box_1"><a href="#">플라워/오너먼트</a></li>
                         <li class="li_box_11"><a href="#">커다란 모양을 달고 있는듯한 <br> 것처럼 꽃이나 나뭇잎. 새 등 <br> 여러 조각의 리드가 많다.
-                            <br> 향을 끌어오는 부분이기도 하여서 <br> 리드는 향이 지나치게 퍼지고 <br> 향료가 빨리닳는 단점이
-                            <br> 있기는 하다. 향이 약하거나<br>  약취가 심하면 추천한다.</a></li>
+                                <br> 향을 끌어오는 부분이기도 하여서 <br> 리드는 향이 지나치게 퍼지고 <br> 향료가 빨리닳는 단점이
+                                <br> 있기는 하다. 향이 약하거나<br> 약취가 심하면 추천한다.</a></li>
                     </ul>
                 </div>
                 <!--플라워/오너먼트-->
@@ -118,8 +136,9 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
                     <img src="images/main_Diffuser3.jpg" alt="Diffuser3">
                     <ul class="ul_box_1">
                         <li class="li_box_1"><a href="#">차량용</a></li>
-                        <li class="li_box_11"><a href="#">미니 사이즈의 디퓨저로 <br> 차량의 포인트를 주려고 하는 <br> 경우도 있지만, 담배냄새와 <br> 에어컨 필터냄새를
-                            <br> 없애기 위하여 차량용으로 <br> 작게 향을 은은히 퍼지게 하는 <br> 경우가 많다.
+                        <li class="li_box_11"><a href="#">미니 사이즈의 디퓨저로 <br> 차량의 포인트를 주려고 하는 <br> 경우도 있지만, 담배냄새와 <br> 에어컨
+                                필터냄새를
+                                <br> 없애기 위하여 차량용으로 <br> 작게 향을 은은히 퍼지게 하는 <br> 경우가 많다.
                                 차안의 향을 지우고 <br> 싶은 경우에 추천한다.</a></li>
                     </ul>
                 </div>
@@ -130,9 +149,9 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
                     <img src="images/main_Diffuser4.jpg" alt="Diffuser4">
                     <ul class="ul_box_1">
                         <li class="li_box_1"><a href="#">탄생화</a></li>
-                        <li class="li_box_11"><a href="#">생일,졸업,취업, 결혼 등등<br> 
-                                여러가지 이유의 축하하는 선물로<br>  추천한다.
-                                그 날의 기억을<br>  좋은 추억으로 만들어<br>  주고싶다면 선물로 추천한다.</a></li>
+                        <li class="li_box_11"><a href="#">생일,졸업,취업, 결혼 등등<br>
+                                여러가지 이유의 축하하는 선물로<br> 추천한다.
+                                그 날의 기억을<br> 좋은 추억으로 만들어<br> 주고싶다면 선물로 추천한다.</a></li>
                     </ul>
                 </div>
                 <!--탄생화-->
@@ -143,7 +162,7 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
 
         <div class="bg3">
             <h2 class="h2_2">원데이 class</h2>
-            <p class="p_h21">원하시는 수업을 클릭하시면<span class="dip"> 해당 수업의 예약 페이지</span>로 이동합니다.</p>
+            <p class="p_h21">원하시는 수업을 클릭하시면<span class="dip1"> 해당 수업의 예약 페이지</span>로 이동합니다.</p>
             <div id="img_class">
                 <div class="img_c1"><a href=""><img src="images/main_Diffuser_class.jpg" alt="Diffuser_class"></a></div>
                 <div class="img_c2"><a href=""><img src="images/main_Candle_class.jpg" alt="Candle_class"></a></div>
@@ -164,11 +183,11 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
                     <ul class="ul_box_1">
                         <li class="li_box_1"><a href="#">자 캔들</a></li>
                         <li class="li_box_11"><a href="#">
-                                병이나 그릇에 왁스를 부어서  <br>만드는 형태로 가장 일반적인  <br>형태이며,
-                                제일 안전하고 촛농이  <br>흘러내릴 위험이 없는게 장점. <br>
+                                병이나 그릇에 왁스를 부어서 <br>만드는 형태로 가장 일반적인 <br>형태이며,
+                                제일 안전하고 촛농이 <br>흘러내릴 위험이 없는게 장점. <br>
                                 얇은 비누모양의 향초이며,
                                 <br>버너 등 기구로 열을 가해
-                                향을  <br>낼 수 있어서 안전히 <br> 향을 맡을 수 있습니다.</a></li>
+                                향을 <br>낼 수 있어서 안전히 <br> 향을 맡을 수 있습니다.</a></li>
                     </ul>
                 </div>
                 <!--자 캔들-->
@@ -201,8 +220,10 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
                     <img src="images/main_Candle4.jpg" alt="Candle4">
                     <ul class="ul_box_1">
                         <li class="li_box_1"><a href="#">타트왁스 캔들</a></li>
-                        <li class="li_box_11"><a href="#">개당 약 4시간 동안 태울 수 있다.<br>  티라이트 홀더에 넣어 단독으로<br>  사용해도 좋으며,원하는 향을 섞어                                사용하여도 좋습니다.<br>
-                                기능성 아로마 시리즈는 숙면, <br> 집중력 향상, 스트레스 완화, <br> 음식 냄새 제거, 담배 냄새 제거,<br>  5가지 기능성을 가지고 있습니다. </a></li>
+                        <li class="li_box_11"><a href="#">개당 약 4시간 동안 태울 수 있다.<br> 티라이트 홀더에 넣어 단독으로<br> 사용해도 좋으며,원하는 향을
+                                섞어 사용하여도 좋습니다.<br>
+                                기능성 아로마 시리즈는 숙면, <br> 집중력 향상, 스트레스 완화, <br> 음식 냄새 제거, 담배 냄새 제거,<br> 5가지 기능성을 가지고 있습니다.
+                            </a></li>
                     </ul>
                 </div>
                 <!--타트왁스 캔들-->
@@ -227,7 +248,7 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
         <div class="box_ins">
             <div class="box_ins1">
                 <a href="#" class="pimg1"><img src="images/img_Diffuser01.jpg" alt="Diffuser01"></a>
-                <a href="#" class="pimg1"><img src="images/img_Diffuser02.jpg" alt="Diffuser02"></a>                
+                <a href="#" class="pimg1"><img src="images/img_Diffuser02.jpg" alt="Diffuser02"></a>
                 <a href="#" class="pimg1"><img src="images/img_Diffuser03.jpg" alt="Diffuser03"></a>
                 <a href="#" class="pimg1"><img src="images/img_Diffuser04.jpg" alt="Diffuser04"></a>
                 <a href="#" class="pimg11"><img src="images/img_Diffuser05.jpg" alt="Diffuser05"></a>
@@ -252,7 +273,7 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
     </div>
     <div id="footer">
         <div class="footer1">
-            <a href="#" class="lodo1"><img src="images/sub_logo.png" alt="sub_logo"></a>
+            <a href="index.html" class="lodo1"><img src="images/sub_logo.png" alt="sub_logo"></a>
             <div id="footer2">
                 <div class="footer2_1">
                     <ul class="li1k">
@@ -288,8 +309,9 @@ attirance : 이끌림은 사랑하는 사람에게 향기와 추억으로 다가
                     <p>ⓒ 2022 All copyrights are by GitHub.</p>
                 </div>
             </div>
-            <div class="footer3"><a href="#" id="kui"><img src="images/kakao.png" alt="kakao"></a><a href="" id="kui"><img
-                        src="images/youtobe.png" alt="youtobe"></a><a href="#" id="kui"><img src="images/instar.png" alt="instar"></a>
+            <div class="footer3"><a href="#" id="kui"><img src="images/kakao.png" alt="kakao"></a><a href=""
+                    id="kui"><img src="images/youtobe.png" alt="youtobe"></a><a href="#" id="kui"><img
+                        src="images/instar.png" alt="instar"></a>
             </div>
 
         </div>
