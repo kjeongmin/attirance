@@ -183,8 +183,8 @@ body {
   position: fixed;
   z-index: 99;
   height: 347px;
-  left:50%;
-  top: 160px;
+  left:48%;
+  top: 20%;
   display: block;
   /*팝업 안보이게 만들기*/
 }
@@ -198,8 +198,8 @@ body {
   position: fixed;
   z-index: 99;
   height: 451px;
-  left:57%;
-  top: 7%;
+  left:55%;
+  top: 68%;
   display: block;
   /*팝업 안보이게 만들기*/
 }
@@ -216,8 +216,8 @@ body {
   position: fixed;
   z-index: 99;
   height: 343px;
-  left: 27%;
-  top: 6px;
+  left: 20%;
+  top: 40%;
   display: block;
   /*팝업 안보이게 만들기*/
 }
