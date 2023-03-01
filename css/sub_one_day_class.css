@@ -1,0 +1,309 @@
+
+/*기본설정*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #220417;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 윤고딕;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #220417;
+  min-width: 1320px;
+}
+
+/*기본설정*/
+/*헤더*/
+#header {
+
+  height: 125px;
+}
+
+.header_inner {
+  width: 1320px;
+  height: 80px;
+  padding-top: 45px;
+  margin: auto;
+
+}
+
+/*왼쪽_버튼*/
+#L_m .l_M {
+  float: left;
+}
+
+#L_m .l_M li {
+  float: left;
+}
+
+#L_m .l_M .li1 a {
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+#L_m .l_M li a {
+  padding-right: 12px;
+  font-weight: 600;
+  font-size: 12px;
+
+}
+
+/*왼쪽_버튼*/
+/*검색_기능*/
+#look {
+  float: right;
+}
+
+.search input {
+  width: 80%;
+  outline-style: none;
+  padding: 5px 5px;
+  border-radius: 3px;
+  background: url(../images/one_day_class/search.png)100% no-repeat;
+}
+
+/*검색_기능*/
+/*로고*/
+.logo {
+  width: 170px;
+  height: 55px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.logo img {
+  width: 170px;
+  height: 55px;
+  margin: auto;
+}
+
+/*로고*/
+/*헤더*/
+/*메뉴*/
+.M {
+  background-color: #f8dfe8;
+  border-top: 1px solid #3b3b33;
+  border-bottom: 1px solid #3b3b33;
+}
+
+#MENU {
+
+  height: 40px;
+  width: 1320px;
+  margin: auto;
+}
+
+#MENU .menu {
+  text-align: center;
+  margin-left: 65px;
+
+}
+
+#MENU .menu .img_1 {
+  width: 27px;
+  height: 18px;
+  float: left;
+
+}
+
+#MENU .menu .img_1 img {
+  width: 27px;
+  height: 18px;
+  float: left;
+  display: block;
+  border-right: 1px solid #3b3b33;
+  border-left: 1px solid #3b3b33;
+  padding: 11px 5px;
+}
+
+#MENU .menu .li2 {
+  padding-left: 170px;
+
+}
+
+#MENU .menu li {
+
+  float: left;
+}
+
+#MENU .menu li a {
+  padding-right: 58px;
+  position: relative;
+  top: 8px;
+  font-weight: 700;
+}
+
+/*메뉴*/
+/*배너*/
+#banner {
+  background: url(../images/one_day_class/banner.jpg) no-repeat center top;
+  width: 100%;
+  height: 240px;
+  background-size: cover;
+}
+#banner .banner_01 {
+  font-size: 26px;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding-top: 108px;
+}
+/*배너*/
+
+/*배경*/
+.bg1 {
+  width: 1320px;
+  height: 225px;
+  margin: auto auto 100px auto; 
+  border-bottom: 2px solid #3b3b33;
+}
+
+/*왼쪽 상단 글*/
+.bg1 .p {
+  padding: 80px 0 0 30px;
+}
+
+/*왼쪽 상단 글*/
+/*중앙*/
+ .p1 {
+  margin-top: 280px;
+  
+}
+/*중앙*/
+/*포스터*/
+.poster{width: 800px;height: 1223px;margin: auto;}
+.poster img{width: 800px;height: 1223px;}
+
+/*포스터*/
+/*footer*/
+#footer {
+  background-color: #ebc9e0;
+  width: 100%;
+  height: 410px;
+  margin-top:170px ;
+}
+
+.footer1 {
+  width: 1125px;
+  height: 350px;
+  margin: auto;
+
+  padding-top: 60px;
+}
+
+.lodo1 {
+  width: 170px;
+  height: 95px;
+  float: left;
+  margin: 15px 0 0 30px;
+}
+
+.lodo1 img {
+  width: 170px;
+  height: 95px;
+}
+
+#footer2 {
+  width: 700px;
+  height: 240px;
+
+
+  float: left;
+  margin-left: 150px;
+}
+
+#footer2 .footer2_1 {
+  width: 700px;
+  height: 35px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#footer2 .footer2_1 .li1k li {
+  float: left;
+}
+
+#footer2 .footer2_1 .li1k li a {
+  font-size: 15px;
+  color: #534953;
+  font-weight: 600;
+  padding-right: 30px;
+}
+
+#footer2 .footer2_2 {
+  width: 260px;
+  height: 60px;
+  float: left;
+}
+
+#footer2 .footer2_2 .li1k li {
+  float: left;
+}
+
+#footer2 .footer2_2 .li1k li a {
+  padding-right: 15px;
+  color: #665b66;
+  font-size: 13px;
+  font-weight: 600
+}
+
+#footer2 .footer2_3 {
+  width: 650px;
+  height: 60px;
+  float: left;
+  margin-top: 10px;
+}
+
+#footer2 .footer2_3 .li1k1 li {
+  float: left;
+}
+
+#footer2 .footer2_3 .li1k1 li a {
+  padding-right: 15px;
+  color: #665b66;
+  font-size: 13px;
+  font-weight: 600
+}
+
+#footer2 .footer2_4 {
+  width: 265px;
+  height: 30px;
+  float: left;
+  margin-top: 10px;
+}
+
+#footer2 .footer2_4 p {
+  color: #665b66;
+  font-size: 13px;
+  font-weight: 600
+}
+
+.footer3 {
+  width: 175px;
+  height: 55px;
+  float: right;
+  position: relative;
+  right: 45px;
+}
+
+.footer3 #kui {
+  width: 50px;
+  height: 50px;
+  padding-right: 6px;
+}
+
+.footer3 #kui img {
+  width: 50px;
+  height: 50px;
+}
