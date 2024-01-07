@@ -155,7 +155,8 @@ body {
 }
 #banner .banner_01 {
   font-size: 28px;
-  color: #ffffff;
+  font-weight: 600;   
+  color: #534953;
   display: block;
   text-align: center;
   padding-top: 160px;
@@ -167,6 +168,7 @@ body {
   width: 100%;
   height: 360px;
   margin: auto;
+
 }
 
 .bg1_W .text_1 {
